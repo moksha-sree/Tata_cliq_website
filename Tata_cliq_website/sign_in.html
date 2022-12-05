@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-in</title>
+    <style>
+        #s1{
+            width:30%;
+            height:600px;
+            box-shadow: 0px 5px 20px 5px rgb(7, 7, 7);
+            border-radius: 40px;
+            justify-content: center;
+            margin:auto;
+            margin-top:40px;
+        }
+        #s2{
+            font-weight: bold;
+            font-size: 33px;
+            color: rgb(31, 31, 31);
+            text-align: center;
+            padding-top:30px;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        #s3{
+            font-weight:light;
+            font-size: 18px;
+            color: rgb(111, 111, 111);
+            text-align: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        #s4{
+            font-weight:lighter;
+            font-size: 14px;
+            color: rgb(151, 151, 151);
+            text-align: left;
+            margin-left:70px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        #s5{
+            font-weight:medium;
+            font-size: 20px;
+            color: rgb(41, 41, 41);
+            text-align: left;
+            margin-left:70px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display:inline-block;
+        }
+        #s6{
+            display:inline-block;
+        }
+        #s7{
+            border:none;
+            width:250px;
+            height:35px;
+            font-size:large;
+            margin-left:15px;
+        }
+        #s8{
+            width:60%;
+        }
+        #s9{
+            color:rgb(244, 1, 46);
+            text-align:center;
+            font-size: 18px;
+            font-weight: 600;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .s10{
+            display:inline;
+            font-size: 14px;
+            color:rgb(244, 1, 46);
+        }
+        #s10{
+            text-align: center;
+            font-weight: 600;
+            color:rgb(77, 77, 77);
+            font-size: 14px;
+            padding:40px 70px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        #s11{
+            margin:5px 70px;
+            width:70%;
+            color:aliceblue;
+            font-size: large;
+            height:40px;
+            border-radius:50px;
+            background-image: linear-gradient(to bottom right,rgb(255, 0, 153), rgb(255, 213, 0));
+            border: none;
+        }
+        #s11:hover{
+            background-image:linear-gradient(rgb(255, 0, 153), rgb(255, 0, 153));
+        }
+        #s0{
+            float:right;
+            padding:20px 30px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <div id="s1">
+            <div id="s0"><a href="tata_cliq.html" ><img src="https://cdn-icons-png.flaticon.com/128/657/657059.png" width="20px" height="20px"> </a></div>
+            <div id="s2"><p>Welcome to Tata<br> CLiQ</p></div>
+            <div id="s3"><p>Please enter your mobile number</p></div>
+            <div id="s4"><p>Mobile Number</p></div>
+            <div id="s5"> +91</div>
+            <div id="s6"><input id="s7" type="text" placeholder="enter mobile number"></div>
+            <hr id="s8">
+            <div id="s9">Use Email Address</div>
+            <div id="s10">By continuing, you agree to our <p class="s10">Terms Of use</p> and <p class="s10" > Privacy policy </p></div>
+            <input id="s11" type="button" value="continue" onclick="msg()">
+        </div>
+    </div>
+</body>
+
+<script>
+    function msg(){
+        alert("successfully signed in !!")
+    }
+</script>
+</html>
